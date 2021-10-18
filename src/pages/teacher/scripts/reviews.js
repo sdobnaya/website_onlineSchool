@@ -5,8 +5,8 @@ const reviews = document.getElementById('reviews');
 
 const savedReviews = JSON.parse(localStorage.getItem('reviews')) || [
     {
-        name: 'Анна Перминова (default)',
-        review: 'Ой я в полном восторге. Мне казалось что я никогда не разберусь с этими артиклями. Теперь я шарю!))))',
+        name: 'Анна Перминова',
+        review: 'Ой я в полном восторге. Мне казалось что я никогда не разберусь с этими артиклями. Теперь я шарю!',
         rating: 5,
         created: '2020-11-08T16:46:02.988Z'
     }
