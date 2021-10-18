@@ -1,6 +1,6 @@
 export const user = JSON.parse(localStorage.getItem('login')) || {
-    email: 'ppmudryi@lectrum.io',
-    name: 'Пётр Премудрый (default)'
+    email: 'ivan@ivan.com',
+    name: 'Иван Иванов'
 };
 
 const profileName = document.getElementById('profileName');
