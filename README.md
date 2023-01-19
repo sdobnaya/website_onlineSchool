@@ -1,24 +1,22 @@
+# Website for online school (JS/SCSS/HTML)
 
-### Installation
+A part of logic for online school - providing personal account for school members. As a student, you can book a lesson and leave feedback, which will be displayed in the teacher's personal account.
 
-```
-npm install
-```
+To run this on your PC you need to do the following:
 
-### Start Dev Server
+1.  Clone the repo:
 
-```
-npm start
-```
+        git clone https://github.com/sdobnaya/website_onlineSchool.git
 
-### Build Prod Version
+2.  Install dependencies using:
 
-```
-npm run build
-```
+       ```
+        npm install
+       ```
 
-### Features:
+3.  Run webpack:
 
-* ES6 Support via [babel](https://babeljs.io/) (v7)
-* SASS Support via [sass-loader](https://github.com/jtangelder/sass-loader)
-* Linting via [eslint-loader](https://github.com/MoOx/eslint-loader)
+       ```
+        npm start
+       ```
+       
